@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xb.autocompletetextviewtest.MainActivity">
+
+    <AutoCompleteTextView
+        android:id="@+id/autocomplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入你喜欢的游戏！"
+        android:completionHint="请选择一个游戏..."
+        android:singleLine="true">
+        <requestFocus/>
+    </AutoCompleteTextView>
+
+
+</android.support.constraint.ConstraintLayout>
